@@ -1,0 +1,21 @@
+---
+layout: default
+title: Latest Sheets
+---
+<h1>Platinum Sheets</h1>
+
+<p>
+    Welcome to Platinum Sheets! This will be a repository where I publish some of my
+    transcription work. Most of my transcriptions will be lead sheets for video game
+    tunes. But you never know, there might be a few surprises here and there!
+</p>
+
+<h2>Latest Sheets</h2>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date:"%-d %B %Y" }})
+    </li>
+    {% endfor %}
+</ul>
