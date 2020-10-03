@@ -11,4 +11,4 @@ the last things you hear before the climactic final confrontation. The strings a
 melody fit the somber nature of the final mission, and the arpeggiating piano and
 persistent drums propel the tune (and your characters) onward.
 
-![Last Battle (Decision), C, Page 1](/assets/images/Tales of Symphonia - Last Battle (Decision)-C-1.png)
+![Last Battle (Decision), C, Page 1]({{ "/assets/images/Tales of Symphonia - Last Battle (Decision)-C-1.png" | relative_url }})
