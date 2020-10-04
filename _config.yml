@@ -1,2 +1,11 @@
 theme: jekyll-theme-slate
 baseurl: /platinum-sheets
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+  - scope:
+      path: "assets/images/sheets"
+    values:
+      sheet: true
