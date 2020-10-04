@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sheet-post
 title: Phoenix Wright - Blue Badger (I Want to Protect)
 sheet: Phoenix Wright - Ace Attorney - Blue Badger - I Want to Protect
 ---
@@ -10,9 +10,3 @@ when investigating critical pieces of evidence.
 
 By the way, have you played Ace Attorney Investigations? This theme makes a cameo in
 that game as well, but it's a much more epic march! Maybe I'll transcribe that later...
-
-{% assign sheet_pages = site.static_files | where: "sheet", "true" | where_exp: "item", "item.basename contains page.sheet" | sort: "basename" %}
-
-{% for sheet_page in sheet_pages %}
-![{{ page.sheet }}, Page {{ forloop.index }}]({{ sheet_page.path | relative_url }})
-{% endfor %}

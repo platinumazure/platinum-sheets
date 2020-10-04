@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{{ content }}
+
+{% assign sheet_pages = site.static_files | where: "sheet", "true" | where_exp: "item", "item.basename contains page.sheet" | sort: "basename" %}
+
+{% for sheet_page in sheet_pages %}
+<img src="{{ sheet_page.path | relative_url }}" alt="{{ page.sheet }}, Page {{ forloop.index }}" />
+{% endfor %}
