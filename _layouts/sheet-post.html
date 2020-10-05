@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1>
+
 {{ content }}
 
 {% assign sheet_pages = site.static_files | where: "sheet", "true" | where_exp: "item", "item.basename contains page.sheet" | sort: "basename" %}
