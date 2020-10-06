@@ -1,5 +1,9 @@
 theme: jekyll-theme-slate
+
+title: Platinum Sheets
+
 baseurl: /platinum-sheets
+
 defaults:
   - scope:
       path: "assets/images"
