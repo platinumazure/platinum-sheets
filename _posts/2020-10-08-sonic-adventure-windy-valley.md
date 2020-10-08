@@ -3,7 +3,7 @@ layout: sheet-post
 title: Sonic Adventure - Windy Valley
 sheet: Sonic Adventure - Windy Hill for Windy Valley
 ---
-I discovered Sonic Adveneture really late, since I didn't grow up with any Sega game
+I discovered Sonic Adventure really late, since I didn't grow up with any Sega game
 systems. I played Sonic Adventure 2: Battle on Nintendo GameCube, and then played Sonic
 Adventure DX when it came out later. I remember loving the field exploration of Station
 Square, Mystic Ruins, and the Egg Carrier the first time I played this game. Otherwise,
