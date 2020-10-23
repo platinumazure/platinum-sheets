@@ -5,6 +5,15 @@ layout: post
 
 {% assign sheet_pages = site.static_files | where: "sheet", "true" | where_exp: "item", "item.basename contains page.sheet" | sort: "basename" %}
 
-{% for sheet_page in sheet_pages %}
-<img src="{{ sheet_page.path | relative_url }}" alt="{{ page.sheet }}, Page {{ forloop.index }}" />
+{% for part_to_render in page.parts %}
+<h2>{{ part_to_render }}</h2>
+
+{% assign sheets_matching_part = sheet_pages | where: "sheet_part", part_to_render %}
+
+{% for sheet_page in sheets_matching_part %}
+<img src="{{ sheet_page.path | relative_url }}" alt="{{ page.sheet }}, {{ part_to_render }}, page {{ forloop.index }}" />
+{% else %}
+<p>There are no available <b>{{ part_to_render}}</b> sheets for <b>{{ page.sheet }}</b>.
+{% endfor %}
+
 {% endfor %}

@@ -16,3 +16,12 @@ defaults:
       path: "assets/images/sheets"
     values:
       sheet: true
+  - scope:
+      path: "assets/images/sheets/C"
+    values:
+      sheet_part: C 
+  - scope:
+      type: "posts"
+    values:
+      parts:
+        - C
