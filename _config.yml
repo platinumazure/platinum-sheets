@@ -7,6 +7,9 @@ baseurl: /platinum-sheets
 
 permalink: pretty
 
+plugins:
+  - jemoji
+
 defaults:
   - scope:
       path: "assets/images"
@@ -19,7 +22,11 @@ defaults:
   - scope:
       path: "assets/images/sheets/C"
     values:
-      sheet_part: C 
+      sheet_part: C
+  - scope:
+      path: "assets/images/sheets/Vocals"
+    values:
+      sheet_part: Vocals
   - scope:
       type: "posts"
     values:
