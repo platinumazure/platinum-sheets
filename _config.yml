@@ -6,6 +6,7 @@ description: Sharing thoughts and music via blog posts and transcriptions
 baseurl: /platinum-sheets
 
 permalink: pretty
+future: false
 
 plugins:
   - jemoji
