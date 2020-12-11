@@ -11,6 +11,6 @@ this famous series, and I was pleasantly surprised to hear "Fighting of the Spir
 Not too much else to say here, honestly. This theme is perfect for throwdowns with the
 mighty Summon Spirits, with a driving rhythm emphasized by the relentless snare drum and
 highly syncopated melody. There are minor differences between the renditions in the two
-games; I actually like the *Tales of Phanatasia* version a little better because it never
+games; I actually like the *Tales of Phantasia* version a little better because it never
 lets up (the one in *Tales of Symphonia* has a few sections where the rhythm eases back
 a little bit). All in all, this was a fun one to transcribe.
