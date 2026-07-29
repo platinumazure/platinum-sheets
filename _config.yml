@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 
 title: Platinum Sheets
 description: Sharing thoughts and music via blog posts and transcriptions
+repository: "platinumazure/platinum-sheets"
 
 baseurl: /platinum-sheets
 
